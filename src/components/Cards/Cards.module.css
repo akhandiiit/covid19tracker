@@ -1,0 +1,41 @@
+.container {
+    margin: 0px ;
+    padding-top: 10px;
+}
+.card {
+    margin: 10px 10px !important;
+    
+    
+}
+.update {
+    margin: 20px 0 !important;
+}
+.infected {     
+    border-bottom: 25px solid rgba(0, 0 ,255 ,0.8 );
+    
+}
+.infected:hover{
+    color:blue;
+    background-color: rgba(0, 0 ,255 ,0.3 );
+}
+.active {
+    border-bottom: 25px solid rgba(224, 115, 65, 0.8);
+}
+.active:hover{
+    color: rgb(236, 120, 74);
+    background-color: rgba(224, 115, 65, 0.3);
+}
+.recovered {
+    border-bottom: 25px solid rgba(0, 255, 0, 0.8);
+}
+.recovered:hover{
+    color: green;
+    background-color: rgba(0, 255, 0, 0.3);
+}
+.deaths {
+    border-bottom: 25px solid rgba(255, 0, 0, 0.8);
+}
+.deaths:hover{
+    color: red;
+    background-color:rgba(255, 0, 0, 0.3);
+}
